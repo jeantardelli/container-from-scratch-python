@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/jeantardelli/container-from-scratch-python/actions/workflows/main.yml/badge.svg)](https://github.com/jeantardelli/container-from-scratch-python/actions/workflows/main.yml)
+
 # container-from-scratch-python
 
 This is building a container from scratch project. It is an exercise from the book [Cloud Computing for Data Analysis](https://noahgift.com/publication/cloud4data/)
