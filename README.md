@@ -12,6 +12,8 @@ Run the following command to build an image:
 docker build --tag=${TAG_NAME} .
 ```
 
+Note: the `TAG_NAME` must match the `<hub-user>/<repo-name>[:<tag>]` format.
+
 Check it was created running:
 
 ```bash
@@ -35,7 +37,7 @@ You should create a public Docker Hub repo first and push it to your own.
 In my case, [the repo](https://hub.docker.com/repository/docker/jeancarlo/simple-python-app) is `jeancarlo/simple-python-app`.
 
 ```bash
-docker push jeancarlo/simple-python-app:${TAG_NAME}
+docker push ${TAG_NAME}
 ```
 
 ## Pulling from Docker Hub
@@ -58,5 +60,5 @@ To see if its ok. Then, to run the app:
 ```bash
 docker run -it jeancarlo/simple-python-app --name "foo"
 # The output
-Hello foo
+Hello foo!
 ```
