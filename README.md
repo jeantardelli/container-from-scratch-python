@@ -45,7 +45,7 @@ docker push ${TAG_NAME}
 To pull this image pulling from the Docker Hub, run the following:
 
 ```bash
-docker pull jeancarlo/simple-python-app:latest
+docker pull jeancarlo/simple-python-app:0.0.1
 docker run -it jeancarlo/simple-python-app bash
 ```
 
